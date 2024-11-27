@@ -10,7 +10,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 )
 
 // Gamba explorer URL - Appears in RecentPlays
-
+export const EXPLORER_URL = 'https://explorer.gamba.so/platform/HNcGGH7y3QfQvjx4wrZ2MAGsrzBw6mUDciQGHVwMcLwN'
 
 // Platform URL - Appears in ShareModal
 
