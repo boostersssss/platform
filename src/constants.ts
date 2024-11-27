@@ -41,6 +41,7 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
 export const POOLS = [
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
+  lp('DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'),
 ]
 
 // The default token to be selected
