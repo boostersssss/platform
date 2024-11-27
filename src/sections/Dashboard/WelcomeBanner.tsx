@@ -110,4 +110,8 @@ export function WelcomeBanner() {
     if (!wallet.connected) {
       walletModal.setVisible(true)
     }
+    
   }
+  return (
+  )
+}
