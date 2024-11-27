@@ -112,6 +112,25 @@ export function WelcomeBanner() {
     }
     
   }
-  return (
+  return (    
+    <Welcome>
+      <div>
+        <h1>Welcome to SMACK MY ASS.COM</h1>
+        <p>
+          A HELLA RIGGED CASINO
+        </p>
+      </div>
+      <Buttons>
+        <button onClick={copyInvite}>
+          💸 Copy Invite
+        </button>
+        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
+          🚀 Add Liquidity
+        </button>
+        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
+          💬 Discord
+        </button>
+      </Buttons>
+    </Welcome>
   )
 }
