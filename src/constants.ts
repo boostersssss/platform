@@ -10,10 +10,10 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 )
 
 // Gamba explorer URL - Appears in RecentPlays
-export const EXPLORER_URL = ''
+
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = ''
+
 
 // Creator fee (in %)
 export const PLATFORM_CREATOR_FEE = 0.01 // 1% !!max 5%!!
