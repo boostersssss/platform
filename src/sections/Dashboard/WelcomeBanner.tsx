@@ -108,29 +108,6 @@ export function WelcomeBanner() {
   const copyInvite = () => {
     store.set({ userModal: true })
     if (!wallet.connected) {
-      walletModal.setVisible(false)
+      walletModal.setVisible(true)
     }
   }
-
-  return (
-    <Welcome>
-      <div>
-        <h1>Welcome to Gamba v2 👋</h1>
-        <p>
-          A fair, simple and decentralized casino on Solana.
-        </p>
-      </div>
-      <Buttons>
-        <button onClick={copyInvite}>
-          💸 Copy Invite
-        </button>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liquidity
-        </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
-        </button>
-      </Buttons>
-    </Welcome>
-  )
-}
