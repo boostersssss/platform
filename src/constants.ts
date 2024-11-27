@@ -41,6 +41,7 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
 export const POOLS = [
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
+  lp('DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'),
 ]
 
 // The default token to be selected
@@ -65,6 +66,15 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'W',
     symbol: 'Wormhole',
     image: 'https://wormhole.com/token.png',
+    baseWager: 1e6,
+    decimals: 6,
+    usdPrice: 0,
+  },
+  {
+    mint: new PublicKey('DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'),
+    name: 'Bonk',
+    symbol: 'BONK',
+    image: 'https://s3.coinmarketcap.com/static-gravity/image/a28128d9ff7c49c9ad33ee2f626fda40.png',
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,
