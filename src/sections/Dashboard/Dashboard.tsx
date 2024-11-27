@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { SlideSection } from '../../components/Slider'
 import { GAMES } from '../../games'
 import { GameCard } from './GameCard'
-import { WelcomeBanner } from './WelcomeBanner'
 
 export function GameSlider() {
   return (
@@ -39,15 +38,5 @@ export function GameGrid() {
         <GameCard key={game.id} game={game} />
       ))}
     </Grid>
-  )
-}
-
-export default function Dashboard() {
-  return (
-    <>
-      <WelcomeBanner />
-      <h2 style={{ textAlign: 'center' }}>Games</h2>
-      <GameGrid />
-    </>
   )
 }
