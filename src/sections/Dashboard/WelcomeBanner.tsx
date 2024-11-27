@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { useUserStore } from '../../hooks/useUserStore'
 
 const Buttons = styled.div`
-  overflow: hidden;
+  overflow: hidden;true
   display: flex;
   flex-direction: column;
   justify-content: space-between;
