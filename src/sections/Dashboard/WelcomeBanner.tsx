@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { useUserStore } from '../../hooks/useUserStore'
 
 const Buttons = styled.div`
-  overflow: hidden;true
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,7 +108,7 @@ export function WelcomeBanner() {
   const copyInvite = () => {
     store.set({ userModal: true })
     if (!wallet.connected) {
-      walletModal.setVisible(true)
+      walletModal.setVisible(false)
     }
   }
 
