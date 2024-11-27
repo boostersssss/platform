@@ -10,7 +10,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 )
 
 // Gamba explorer URL - Appears in RecentPlays
-export const EXPLORER_URL = 'https://fabled-fortune.fabled-adventure.xyz/recent-plays'
+export const EXPLORER_URL = 'https://explorer.gamba.so'
 
 // Platform URL - Appears in ShareModal
 export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
